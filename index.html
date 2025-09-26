@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunicación Asertiva en ADSO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-header">
+                <img src="img/personas.png" alt="Logo comunicaciones" class="logo-img">
+                <span class="logo-titulo">Comunicaciones</span>
+            </div>
+            <div class="nav-header">
+                <nav>
+                    <button class="menu-toggle" aria-label="Abrir menú" onclick="toggleMenu()">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+                    <ul id="nav-list">
+                        <li><a href="#introduccion" onclick="scrollConOffset(event, 'introduccion')">Introducción</a>
+                        </li>
+                        <li><a href="#tematica" onclick="scrollConOffset(event, 'tematica')">Temática</a></li>
+                        <li><a href="#reflexion" onclick="scrollConOffset(event, 'reflexion')">Reflexión</a></li>
+                        <li><a href="#evidencias" onclick="scrollConOffset(event, 'evidencias')">Evidencias</a></li>
+                        <li><a href="#integrantes" onclick="scrollConOffset(event, 'integrantes')">Integrantes</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section id="introduccion">
+            <div class="seccion-img">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHpoxt5mpzPkiERVV8_dteNRaaAxplZWrAuYZR3RP4_rxu8KnoISOApTymRBUBu-3t366pshwYnxOTi_uiuJ49JJzigBHwnIWsbM8yyRn4kPrY6mLjh0SYMVi-fxDt13H49xlXE2wZIiWm/s1600/1-comunicaci%C3%B3n.jpg"
+                    alt="Introducción a la comunicación">
+            </div>
+            <h2>¿Qué es la comunicación y por qué es importante?</h2>
+            <p>
+                La comunicación es el proceso mediante el cual las personas transmiten ideas, emociones y conocimientos.
+                Es fundamental porque nos permite interactuar, comprendernos y colaborar de manera efectiva. Una buena
+                comunicación es la base para resolver problemas, construir relaciones sólidas y alcanzar objetivos
+                comunes, tanto en la vida personal como profesional.
+            </p>
+        </section>
+        <section id="tematica">
+            <div class="seccion-img">
+                <img src="data:image/jpeg;base64,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"
+                    alt="Comunicación asertiva en tecnología">
+            </div>
+            <h2>Rol de la Comunicación Asertiva en el Tecnólogo en ADSO</h2>
+            <p>
+                La comunicación asertiva es esencial para el éxito de un tecnólogo en Análisis y Desarrollo de Software.
+                Permite expresar ideas con claridad, resolver problemas, fomentar la colaboración y mejorar la relación
+                con clientes y colegas. Entre sus beneficios destacan:
+            </p>
+            <ul>
+                <li><strong>Claridad en la especificación de requisitos:</strong> Evita errores y retrabajos.</li>
+                <li><strong>Colaboración efectiva:</strong> Fomenta un ambiente donde todos pueden aportar.</li>
+                <li><strong>Resolución de conflictos:</strong> Facilita soluciones satisfactorias para todos.</li>
+                <li><strong>Feedback constructivo:</strong> Promueve el aprendizaje y la mejora continua.</li>
+                <li><strong>Relación con clientes:</strong> Ayuda a comprender y satisfacer sus necesidades.</li>
+                <li><strong>Negociación de plazos y recursos:</strong> Facilita acuerdos justos y realistas.</li>
+            </ul>
+            <p>
+                En resumen, la comunicación asertiva contribuye a un trabajo más eficiente, colaborativo y exitoso.
+            </p>
+        </section>
+        <section id="reflexion">
+            <div class="seccion-img">
+                <img src="https://s1.significados.com/foto/reflexion-og.jpg"
+                    alt="Reflexión sobre tipos de comunicación">
+            </div>
+            <h2>Reflexión: Tipos de Comunicación</h2>
+
+            <div class="carousel-container">
+ 
+
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+
+                <div class="dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+            <div class="tipos-comunicacion">
+                <p>Haz clic en cada tipo para ver su descripción:</p>
+                <ul class="tipos-lista">
+                    <li><button onclick="mostrarTipo('pasivaosumisa')">Pasiva o Sumisa</button></li>
+                    <li><button onclick="mostrarTipo('pasivoagresiva')" data-tipo="pasivoagresiva">Pasivo
+                            Agresiva</button></li>
+                    <li><button onclick="mostrarTipo('agresiva')">Agresiva</button></li>
+                    <li><button onclick="mostrarTipo('asertiva')">Asertiva</button></li>
+                </ul>
+                <div id="info-tipo" class="info-tipo">
+                    <div id="pasivaosumisa" class="tipo-detalle" style="display:none">
+                        <h3>Pasiva o Sumisa</h3>
+                        <ul>
+                            <li><strong>Evita expresar opiniones o deseos:</strong> Prioriza las necesidades de los
+                                demás antes que las propias.</li>
+                            <li><strong>Evita el enfrentamiento:</strong> Cede ante los demás por miedo al conflicto o
+                                al rechazo.</li>
+                            <li><strong>Consecuencias:</strong> Puede generar frustración, resentimiento y baja
+                                autoestima.</li>
+                        </ul>
+                        <p>Ejemplo: Una persona que nunca dice "no" aunque no esté de acuerdo, por temor a molestar a
+                            los demás.</p>
+                    </div>
+                    <div id="agresiva" class="tipo-detalle" style="display:none">
+                        <h3>Agresiva</h3>
+                        <p>La persona expresa sus pensamientos, sentimientos y necesidades sin considerar ni respetar
+                            los de los demás, llegando incluso a ignorarlos o menospreciarlos.</p>
+                    </div>
+                    <div id="pasivoagresiva" class="tipo-detalle" style="display:none">
+                        <h3>Pasivo-agresiva</h3>
+                        <p>La persona no expresa abiertamente su malestar, pero lo manifiesta a través de acciones
+                            indirectas, comentarios irónicos o actitudes ambiguas.</p>
+                        <strong>Ejemplo cotidiano:</strong>
+                        <p>En una familia, Laura está molesta porque su hermano nunca ayuda a limpiar después de la
+                            cena. En lugar de decirlo directamente, decide demostrarlo con acciones sutiles: cuando él
+                            le pide la sal, se la pasa lentamente y con una sonrisa forzada, mientras comenta en voz
+                            baja pero audible: “Algunos tenemos tiempo para recoger, otros… para descansar”. Luego,
+                            guarda los platos de forma ruidosa y suspira exageradamente. Aunque no lo dice abiertamente,
+                            su tono, sus gestos y comentarios irónicos dejan claro su malestar, reflejando una
+                            comunicación pasivo-agresiva.</p>
+                    </div>
+                    <div id="asertiva" class="tipo-detalle" style="display:none">
+                        <h3>Asertiva</h3>
+                        <ul>
+                            <li><strong>Respeto mutuo:</strong> Defiende los propios derechos sin faltar al respeto a
+                                los demás.</li>
+                            <li><strong>Uso de un tono adecuado:</strong> Mantiene un tono calmado, firme y seguro,
+                                evitando gritos o sarcasmos.</li>
+                            <li><strong>Lenguaje positivo:</strong> Se enfoca en proponer, dialogar y buscar soluciones,
+                                en lugar de atacar o culpar.</li>
+                            <li><strong>Escucha activa:</strong> Presta atención a lo que la otra persona dice,
+                                demostrando interés genuino.</li>
+                            <li><strong>Control emocional:</strong> Maneja las emociones antes de responder, evitando
+                                reacciones impulsivas.</li>
+                            <li><strong>Orientación a soluciones:</strong> Busca acuerdos y entendimientos que
+                                beneficien a ambas partes.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="carrousel-comunicacion">
+                    <div class="carrousel-rediseñado">
+                    </div>
+                    <div class="comparacion">
+                        <h3>¿Cuál es la diferencia entre comunicación agresiva y comunicación pasiva?</h3>
+                        <p>
+                            La comunicación <strong>agresiva</strong> es aquella en la que las personas expresan sus
+                            pensamientos, sentimientos y necesidades sin importar e incluso ignorando los de los demás;
+                            mientras que la comunicación <strong>pasiva</strong> pone por encima las necesidades de los
+                            demás antes que las propias, lo que puede llevar a que nuestras necesidades se acumulen, no
+                            sean satisfechas y surjan frustración y resentimiento.
+                        </p>
+                    </div>
+                </div>
+        </section>
+        <section id="evidencias">
+            <div class="seccion-img">
+                <img src="data:image/jpeg;base64,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"
+                    alt="Evidencias de comunicación">
+            </div>
+            <h2>Evidencias de los Trabajos</h2>
+
+            <div class="evidencia">
+                <h3>Alejandro Suarez</h3>
+                <ul class="archivos-evidencia">
+                    <li>
+                        <a href="funcion+referencial.pdf" target="_blank">Descargar PDF: función referencial</a>
+                    </li>
+                    <li>
+                        <a href="2EV0 _ TALLER TIPOS DE COMUNICACIÓN.pdf" target="_blank">Descargar PDF: TALLER TIPOS DE
+                            COMUNICACIÓN</a>
+                    </li>
+                    <li>
+                        <a href="Investigacion_Funcion_Referencial_Microexpresiones.pdf" target="_blank">Descargar PDF:
+                            Investigación Función Referencial y Microexpresiones</a>
+                    </li>
+                </ul>
+                <div class="vista-previa-pdf">
+                    <iframe src="funcion+referencial.pdf" width="100%" height="400px" frameborder="0"
+                        title="Vista previa función referencial"></iframe>
+                </div>
+                <div class="vista-previa-pdf">
+                    <iframe src="2EV0 _ TALLER TIPOS DE COMUNICACIÓN.pdf" width="100%" height="400px" frameborder="0"
+                        title="Vista previa TALLER TIPOS DE COMUNICACIÓN"></iframe>
+                </div>
+                <div class="vista-previa-pdf">
+                    <iframe src="Investigacion_Funcion_Referencial_Microexpresiones.pdf" width="100%" height="400px"
+                        frameborder="0"
+                        title="Vista previa Investigación Función Referencial y Microexpresiones"></iframe>
+                </div>
+            </div>
+            <div class="evidencia">
+                <h3>Dilan Sanchez</h3>
+                <ul class="archivos-evidencia">
+                    <!-- Ejemplo de enlace a archivo Word -->
+                    <li><a href="trabajos/ejemplo-dilan.docx" target="_blank">Ver trabajo Word: Ejemplo Dilan</a></li>
+                    <!-- Ejemplo de enlace a archivo PDF -->
+                    <li><a href="trabajos/ejemplo-dilan.pdf" target="_blank">Ver trabajo PDF: Ejemplo Dilan</a></li>
+                    <div class="vista-previa-pdf">
+                        <iframe src="Copia de 2EV0 _ TALLER TIPOS DE COMUNICACIÓN.pdf" width="100%" height="400px"
+                            frameborder="0"
+                            title="Vista previa Investigación Función Referencial y Microexpresiones"></iframe>
+                    </div>
+                </ul>
+            </div>
+        </section>
+        <section id="integrantes">
+            <div class="seccion-img">
+                <img src="data:image/png;base64,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"
+                    alt="Integrantes del equipo">
+            </div>
+            <h2>Integrantes</h2>
+            <div class="integrante">
+                <h3>Alejandro Suarez</h3>
+                <p>Tecnólogo en formación, apasionado por el desarrollo de software y la comunicación efectiva en
+                    equipos de trabajo.</p>
+            </div>
+            <div class="integrante">
+                <h3>Dilan Sanchez</h3>
+                <p>Estudiante de ADSO, comprometido con el aprendizaje continuo y la colaboración para lograr proyectos
+                    exitosos.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Alejandro Suarez & Dilan Sanchez. Todos los derechos reservados.</p>
+    </footer>
+    <script src="archivo.js"></script>
+</body>
+
+</html>
